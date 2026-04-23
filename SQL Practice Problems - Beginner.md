@@ -40,6 +40,7 @@ From Students;
 
 
 
+
 * Select only name, final\_grade, and attendance\_pct.
 
 
@@ -47,6 +48,8 @@ From Students;
 Select name, final\_grade, attendance\_pct
 
 From Students;
+
+
 
 
 
@@ -62,6 +65,8 @@ where final\_grade > 85;
 
 
 
+
+
 * Find students with attendance\_pct < 70
 
 
@@ -71,6 +76,9 @@ Select \*
 From Students
 
 where attendance\_pct < 70;
+
+
+
 
 
 
@@ -86,6 +94,9 @@ where online\_classes\_taken =True;
 
 
 
+
+
+
 * List students ordered by final\_grade (highest first)
 
 
@@ -95,6 +106,9 @@ Select \*
 from students 
 
 order by final\_grade desc;
+
+
+
 
 
 
@@ -110,6 +124,9 @@ order by study\_hours\_per\_week asc;
 
 
 
+
+
+
 * Show the top 5 students by final grade
 
 
@@ -121,6 +138,9 @@ from students
 order by final\_grade desc
 
 limit 5;
+
+
+
 
 
 
